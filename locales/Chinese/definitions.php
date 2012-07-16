@@ -12,7 +12,8 @@ $LocaleInfo['Chinese'] = array (
   'License' => 'GPL2',
 );
 
-$SiteName='爱青大';
+//站点名称
+$SiteName='Vanilla中文演示';
 
 //////////////////////////////////
 
@@ -663,8 +664,6 @@ $Definition['[%s] Password Reset'] = '[%s]重设密码';
 /**
  * PLUGINS
  */
-
-
 $Definition['Online'] = '在线';
 $Definition['Offline'] = '已下线';
 $Definition['Pockets'] = '口袋（自定义HTML块）';
@@ -859,7 +858,7 @@ $Definition['Date.DefaultDayFormat'] = '%m月%e日 ';
 //lastComment
 $Definition['Latest Commented'] = '最新评论帖';
 
-//times ago
+//times ago [Time format] 
 $Definition['just now'] = '刚刚';
 $Definition['a few minutes ago'] = '几分钟前';
 $Definition['%s minutes ago'] = '%s 分钟前';
@@ -901,7 +900,6 @@ $Definition['Other'] = '其他';
 $Definition['Sign In with TecentQQ'] = '使用QQ登陆';
 
 //QQ登录
-
 $Definition['Hang on a sec while we sign you out.'] = '正在退出，请稍等';
 $Definition['You are attempting to sign out of Vanilla. Are you sure you want to %s?'] = '你将要离开'.$SiteName.'，你确定要 %s 吗？';
 $Definition['sign out'] = '退出';
@@ -997,5 +995,4 @@ $Definition['TermsOfServiceText'] = '
 四、禁止以任何方式对本站进行各种破坏行为。<br>
 五、如果您有违反国家相关法律法规的行为，本站概不负责，您的登录论坛信息均被记录无疑，必要时，我们会向相关的国家管理部门提供此类信息。<br>
 <br>
- 爱青大
-  ';
+  '.$SiteName;
